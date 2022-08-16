@@ -2,29 +2,29 @@
 
 `undefined8 main(int argc,char **argv)
 `
-`{
-  size_t length;
-  
-  if (argc == 2) {
-    length = strlen(argv[1]);
-    if (length == 10) {
-      if (argv[1][4] == '@') {
-        puts("Nice Job!!");
-        printf("flag{%s}\n",argv[1]);
-      }
-      else {
-        usage(*argv);
-      }
-    }
-    else {
-      usage(*argv);
+`{`
+`  size_t length;
+`  
+ `if (argc == 2) {`
+    `length = strlen(argv[1]);`
+    `if (length == 10) {`
+      `if (argv[1][4] == '@') {`
+        `puts("Nice Job!!");`
+       ` printf("flag{%s}\n",argv[1]);`
+      `}`
+     ` else {`
+        `usage(*argv);`
+ `     }`
+    `}`
+``    else {
+      usage(*argv);``
     }
   }
   else {
     usage(*argv);
   }
   return 0;
-}`
+}
 
 
 ### I renamed several variables and it reveld that in order to crack the pass word we need a 10 length string with @ between letters.
