@@ -1,10 +1,11 @@
 ## Reversing the .ELF file the using GHIDRA reverse engineering, checking the main function revels the following code:
 
-`undefined8 main(int argc,char **argv)
-`
+`undefined8 main(int argc,char **argv)`
+
 `{`
-`  size_t length;
-`  
+
+  `size_t length;`
+  
  `if (argc == 2) {`
  
     `length = strlen(argv[1]);`
