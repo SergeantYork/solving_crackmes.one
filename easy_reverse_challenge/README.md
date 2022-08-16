@@ -4,25 +4,25 @@
 ### I renamed several variables and it reveld that in order to crack the pass word we need a 10 length string with @ between letters.
 ### inserting the following for each argv space:
 
--argv[1][0]=a
+    -argv[1][0]=a
 
--argv[1][1]=b
+    -argv[1][1]=b
 
--argv[1][2]=c
+    -argv[1][2]=c
 
--argv[1][3]=d
+    -argv[1][3]=d
 
--argv[1][4]=@
+    -argv[1][4]=@
 
--argv[1][5]=e
+    -argv[1][5]=e
 
--argv[1][6]=f
+    -argv[1][6]=f
 
--argv[1][7]=g
+    -argv[1][7]=g
 
--argv[1][8]=h
+    -argv[1][8]=h
 
--argv[1][9]=i
+    -argv[1][9]=i
 
 
 ### this revels the following answer in the terminal 
