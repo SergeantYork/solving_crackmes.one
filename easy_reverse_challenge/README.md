@@ -2,7 +2,7 @@
 
 `undefined8 main(int argc,char **argv)
 `
-{
+`{
   size_t length;
   
   if (argc == 2) {
@@ -24,7 +24,7 @@
     usage(*argv);
   }
   return 0;
-}
+}`
 
 
 ### I renamed several variables and it reveld that in order to crack the pass word we need a 10 length string with @ between letters.
