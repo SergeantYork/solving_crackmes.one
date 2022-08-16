@@ -1,4 +1,5 @@
-Reversing the .ELF file the using GHIDRA reverse engineering, checking the main function revels the following code:
+#Reversing the .ELF file the using GHIDRA reverse engineering, checking the main function revels the following code:
+
 undefined8 main(int argc,char **argv)
 
 {
@@ -24,6 +25,8 @@ undefined8 main(int argc,char **argv)
   }
   return 0;
 }
+
+
 I renamed several variables and it reveld that in order to crack the pass word we need a 10 length string with @ between letters.
 inserting the following for each argv space:
 argv[1][0]=a
